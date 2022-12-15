@@ -1,0 +1,22 @@
+/* narrow, centered column */
+/* images contained within column */
+body {
+    background-color: #eff3f5;
+ }
+ html {
+    /* limit width */
+    max-width: 80ch;
+    /* center things */
+    margin-inline: auto;
+ }
+ img {
+    /* make sure images fit in the given space */
+    max-width: 100%;
+ }
+ .center {
+    text-align:center ;
+ }
+ figcaption {font-size: small;
+
+ }
+ 
